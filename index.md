@@ -2,6 +2,4 @@
 layout: home
 ---
 
-Merhaba. Ben tam zamanlı iş analistiyim ve oyun geliştirici olmak için
-8 aylık bir plan yürütüyorum. Bu devlog o yolculuğun kaydı: her hafta
-ne yaptım, ne ters gitti, ne öğrendim.
+Hi, I'm mali. I am a full time business analyst and currently running an 8 month plan to become a game developer. This devlog is a journal of that journey. I will be uploading each step of the project: What did I do, what went wrong and what I learned. 
