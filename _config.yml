@@ -2,3 +2,5 @@ title: maligenc devlog
 description: İş analistinden oyun geliştiriciye — haftalık devlog
 theme: minima
 lang: tr
+plugins:
+  - jemoji
