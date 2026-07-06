@@ -18,6 +18,7 @@ After exporting this amazing background, I added my little triangle as a player 
 ![First Scene](/assets/FirstScene.png)
 
 I added my first script and my player started to move :tada:
+
 <details>
 <summary>PlayerMovement.cs</summary>
 
@@ -57,6 +58,7 @@ public class PlayerController : MonoBehaviour
     }
 }
 ```
+
 </details>
 
 The code was fine and all, but there was an issue. While the character moved, it made sudden jumps along the way. It was moving like it was glitched.
