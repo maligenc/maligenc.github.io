@@ -18,8 +18,7 @@ After exporting this amazing background, I added my little triangle as a player 
 ![First Scene](/assets/FirstScene.png)
 
 I added my first script and my player started to move :tada:
-
-<details>
+<details markdown="1">
 <summary>PlayerMovement.cs</summary>
 
 ```csharp
@@ -67,11 +66,10 @@ After a little conversation with Sonnet, I learned that using physics in Update(
 
 I fixed the issue by updating the code like this
 
-<details>
+<details markdown="1">
 <summary>PlayerMovement.cs-updated</summary>
 
 ```csharp
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -108,10 +106,7 @@ public class PlayerController : MonoBehaviour
         rb.MovePosition(rb.position + Movement);
     }
 }
-
-
 ```
-
 
 </details>
 
@@ -121,11 +116,10 @@ I created a bullet prefab and coded a script that made an empty game object (whi
 
 I made sure that the shooting mechanic had a delay of about 0.5 seconds.
 
-<details>
+<details markdown="1">
 <summary>shootingScript</summary>
 
 ```csharp
-
 using System;
 using System.Runtime.CompilerServices;
 using JetBrains.Annotations;
@@ -158,18 +152,14 @@ public class Weapon : MonoBehaviour
     }
 
 }
-
-
 ```
 
 </details>
 
-
-<details>
+<details markdown="1">
 <summary>BulletScript</summary>
 
 ```csharp
-
 using UnityEngine;
 
 public class Movement : MonoBehaviour
@@ -188,16 +178,13 @@ public class Movement : MonoBehaviour
         Destroy(gameObject);
     }
 }
-
-
-
 ```
 
 </details>
 
 By using these scripts, I managed to create this:
 
-![moveandshoot](/assets/Move&Shoot.gif)
+![moveandshoot](/assets/MoveAndShoot.gif)
 
 This first document came out sort of straight-up cringe, but I hope my writing and markdown skills will also improve along with my game development skills while I work on this project.
 
