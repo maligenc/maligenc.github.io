@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" width="760" height="250" role="img" aria-label="TUNNELING">
+  <style>
+    text {
+      font-family: 'Arial Black', 'Archivo Black', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 102px;
+      text-anchor: middle;
+    }
+    .main { stroke: #16111b; stroke-width: 7px; paint-order: stroke; stroke-linejoin: round; }
+    .sh   { fill: #16111b; }
+    .l    { animation: wave 1.8s ease-in-out infinite; }
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-16px); }
+    }
+    .sp { fill: #ffffff; stroke: #16111b; stroke-width: 2.5px; stroke-linejoin: round; animation: twinkle 1.8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes twinkle {
+      0%, 100% { opacity: 1; transform: scale(1) rotate(0deg); }
+      50%      { opacity: 0.25; transform: scale(0.45) rotate(45deg); }
+    }
+    @media (prefers-reduced-motion: reduce) { .l, .sp { animation: none; } }
+  </style>
+
+  <!-- T -->
+  <g class="l" style="animation-delay:-0.00s"><g transform="rotate(-5 62 120)">
+    <text class="sh" x="68" y="162">T</text>
+    <text class="main" fill="#f4483a" x="62" y="155">T</text>
+  </g></g>
+  <!-- U -->
+  <g class="l" style="animation-delay:-0.16s"><g transform="rotate(4 141 120)">
+    <text class="sh" x="147" y="162">U</text>
+    <text class="main" fill="#fdc730" x="141" y="155">U</text>
+  </g></g>
+  <!-- N -->
+  <g class="l" style="animation-delay:-0.32s"><g transform="rotate(-3 220 120)">
+    <text class="sh" x="226" y="162">N</text>
+    <text class="main" fill="#2d7ef7" x="220" y="155">N</text>
+  </g></g>
+  <!-- N -->
+  <g class="l" style="animation-delay:-0.48s"><g transform="rotate(5 300 120)">
+    <text class="sh" x="306" y="162">N</text>
+    <text class="main" fill="#f4483a" x="300" y="155">N</text>
+  </g></g>
+  <!-- E -->
+  <g class="l" style="animation-delay:-0.64s"><g transform="rotate(-4 379 120)">
+    <text class="sh" x="385" y="162">E</text>
+    <text class="main" fill="#fdc730" x="379" y="155">E</text>
+  </g></g>
+  <!-- L -->
+  <g class="l" style="animation-delay:-0.80s"><g transform="rotate(3 458 120)">
+    <text class="sh" x="464" y="162">L</text>
+    <text class="main" fill="#2d7ef7" x="458" y="155">L</text>
+  </g></g>
+  <!-- I -->
+  <g class="l" style="animation-delay:-0.96s"><g transform="rotate(-5 530 120)">
+    <text class="sh" x="536" y="162">I</text>
+    <text class="main" fill="#f4483a" x="530" y="155">I</text>
+  </g></g>
+  <!-- N -->
+  <g class="l" style="animation-delay:-1.12s"><g transform="rotate(4 606 120)">
+    <text class="sh" x="612" y="162">N</text>
+    <text class="main" fill="#fdc730" x="606" y="155">N</text>
+  </g></g>
+  <!-- G -->
+  <g class="l" style="animation-delay:-1.28s"><g transform="rotate(-3 690 120)">
+    <text class="sh" x="696" y="162">G</text>
+    <text class="main" fill="#2d7ef7" x="690" y="155">G</text>
+  </g></g>
+
+  <!-- pırıltılar -->
+  <path class="sp" style="animation-delay:-0.3s" d="M 34 42 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 Z"/>
+  <path class="sp" style="animation-delay:-0.9s" d="M 386 26 l 2.5 7 l 7 2.5 l -7 2.5 l -2.5 7 l -2.5 -7 l -7 -2.5 l 7 -2.5 Z"/>
+  <path class="sp" style="animation-delay:-1.4s" d="M 728 50 l 3 8 l 8 3 l -8 3 l -3 8 l -3 -8 l -8 -3 l 8 -3 Z"/>
+</svg>
