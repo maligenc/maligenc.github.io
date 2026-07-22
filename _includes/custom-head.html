@@ -1,0 +1,16 @@
+<!-- MathJax — kramdown $$...$$ ifadelerini \(...\) ve \[...\] olarak ureti-
+     yor, onlari render eden kutuphane bu. Minima head.html icinden cagirilir. -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['\\[', '\\]']]
+    },
+    options: {
+      // Kod bloklari matematik olarak islenmesin — yazilar C# dolu.
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>

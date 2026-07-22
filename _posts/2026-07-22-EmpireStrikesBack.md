@@ -77,6 +77,7 @@ This script was my first attempt. Sure, it made the enemies shoot in a random or
 First, I converted the random numbers into floats rather than integers. This way I made sure the enemies almost never shot at the same time. When it came down to how randomly they would shoot, my GenAI mentor gave me a sweet formula.
 
 $$R_{\text{swarm}} \approx N \cdot \frac{p}{T}$$
+
 > R<sub>swarm</sub> — fire rate · *N* — aliens alive · *p* — chance to fire per roll · *T* — seconds between rolls
 
 I was thinking one bullet from the swarm should be okay, which made the formula look like this
